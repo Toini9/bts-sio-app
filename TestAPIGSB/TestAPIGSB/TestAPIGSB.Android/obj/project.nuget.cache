@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tGkMmkXeD4N4kUlmkNogUiozIZM2jViZzjU7hglquEvYJSufLU7KYx+Olwf+ugleqq9P1JQXKeEEkjz6AWQDXw==",
+  "dgSpecHash": "zohPFXdz6N5PcWkyimSqXoz6McVV4QdI4SFnxrTn68xIRF/zcPDi6cs3WSjgLhn6VBOVl1bUh5RRw91dR0CNgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj",
+  "projectFilePath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tony\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

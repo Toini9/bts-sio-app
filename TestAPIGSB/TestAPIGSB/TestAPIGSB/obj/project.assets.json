@@ -675,11 +675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
+      "projectUniqueName": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
       "projectName": "TestAPIGSB",
-      "projectPath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
+      "projectPath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
       "packagesPath": "C:\\Users\\tony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\obj\\",
+      "outputPath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj": {}
+    "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj": {
+    "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj",
+        "projectUniqueName": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj",
         "projectName": "TestAPIGSB.Android",
-        "projectPath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj",
+        "projectPath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\TestAPIGSB.Android.csproj",
         "packagesPath": "C:\\Users\\tony\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\obj\\",
+        "outputPath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj": {
-                "projectPath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj"
+              "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj": {
+                "projectPath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj": {
+    "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
+        "projectUniqueName": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
         "projectName": "TestAPIGSB",
-        "projectPath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
+        "projectPath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
         "packagesPath": "C:\\Users\\tony\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\obj\\",
+        "outputPath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

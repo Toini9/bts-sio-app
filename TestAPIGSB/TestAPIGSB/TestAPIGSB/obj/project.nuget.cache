@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KuK0YyVATU9RUh5TTLeOjZ2xnMD8bB1WXihJjI/BN8fY4RPhsO+yHdfvPntrzoZU7XXCmv0UiomdxaBZ5F8PVA==",
+  "dgSpecHash": "6rOH1OGw1Uz+PXr6uCYFskSDMLBYFTVhiKPPrGFTmzINiQ9kCWmxv/v3AZKSEADHbrXM88MS7XyMjQN8GctW+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tony\\Desktop\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
+  "projectFilePath": "C:\\Users\\tony\\Documents\\GitHub\\GSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB\\TestAPIGSB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tony\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\tony\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
