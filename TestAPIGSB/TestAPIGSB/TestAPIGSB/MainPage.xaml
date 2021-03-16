@@ -4,9 +4,9 @@
              x:Class="TestAPIGSB.MainPage">
 
     <StackLayout VerticalOptions="Center">
-        <Button Text="Secteurs" x:Name="btnSecteurs" Clicked="btnSecteurs_Clicked"></Button>
-        <Button Text="Regions" x:Name="btnRegions" Clicked="btnRegions_Clicked"></Button>
-        <Button Text="Visiteurs" x:Name="btnVisiteurs" Clicked="btnVisiteurs_Clicked"></Button>
+        <Button Text="Médicament" x:Name="btnMedicaments" Clicked="btnMedicaments_Clicked"></Button>
+        <Button Text="Prescrire" x:Name="btnPrescrires" Clicked="btnPrescrires_Clicked"></Button>
+        <Button Text="Dosage" x:Name="btnDosages" Clicked="btnDosages_Clicked"></Button>
         <Button Text="Travailler" x:Name="btnTravailler" Clicked="btnTravailler_Clicked"></Button>
     </StackLayout>
 

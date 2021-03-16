@@ -19,18 +19,19 @@ namespace TestAPIGSB
             InitializeComponent();
         }
 
-        private async void btnSecteurs_Clicked(object sender, EventArgs e)
+        private async void btnMedicaments_Clicked(object sender, EventArgs e)
         {
             PageSecteur page = new PageSecteur();
             await Navigation.PushModalAsync(new NavigationPage(page));
         }
 
-        private void btnRegions_Clicked(object sender, EventArgs e)
+        private void btnPrescrires_Clicked(object sender, EventArgs e)
         {
-
+            PagePrescrire page = new PagePrescrire();
+            await Navigation.PushModalAsync(new NavigationPage(page));
         }
 
-        private void btnVisiteurs_Clicked(object sender, EventArgs e)
+        private void btnbtnDosages_Clicked(object sender, EventArgs e)
         {
 
         }

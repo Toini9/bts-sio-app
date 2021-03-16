@@ -40,3 +40,16 @@ C:\Users\tony\Desktop\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\
 C:\Users\tony\Desktop\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.dll
 C:\Users\tony\Desktop\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\ref\TestAPIGSB.dll
 C:\Users\tony\Desktop\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.pdb
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.csprojAssemblyReference.cache
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.Properties.Resources.resources
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.csproj.GenerateResource.cache
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\Pages\PagePrescrire.xaml.g.cs
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\Pages\PageSecteur.xaml.g.cs
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.AssemblyInfoInputs.cache
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.AssemblyInfo.cs
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.csproj.CoreCompileInputs.cache
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.dll
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\ref\TestAPIGSB.dll
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.pdb
