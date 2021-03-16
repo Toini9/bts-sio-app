@@ -22,7 +22,7 @@
                 </ListView.ItemTemplate>
             </ListView>
             <Label>Nom du secteur</Label>
-            <Entry x:Name="txtNomSecteur"></Entry>
+            <Entry x:Name="txtNomPrescrire"></Entry>
             <StackLayout Orientation="Horizontal">
                 <Button HorizontalOptions="Center" Text="Modifier" x:Name="btnModifier" Clicked="btnModifier_Clicked"></Button>
                 <Button HorizontalOptions="Center" Text="Ajouter" x:Name="btnAjouter" Clicked="btnAjouter_Clicked"></Button>

@@ -67,18 +67,18 @@
 		case 'GET':
 			if(!empty($_GET["id"]))
 			{
-				getLeSecteur($_GET["id"]);
+				getLePrescrire($_GET["id"]);
 			}
 			else
 			{
-				getLesSecteurs();
+				getLesPrecrires();
 			}
 			break;
 		case 'POST':
-			AddSecteur();
+			AddPrescrire();
 			break;
 		case 'PUT':
-			UpdateSecteur();
+			UpdatePrescire();
 			break;
 		default:
 			header("HTTP/1.0 405 Method Not Allowed");

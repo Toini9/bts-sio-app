@@ -1,3 +1,6 @@
 RewriteEngine On # Activer le module Rewrite
 RewriteRule ^secteurs/?$ DAOSecteur.php [NC,L]
 RewriteRule ^[^/]+/(\d+)$ DAOSecteur.php?id=$1
+
+RewriteRule ^prescrire/?$ DAOPrescirre.php [NC,L]
+RewriteRule ^[^/]+/(\d+)$ DAOPrescirre.php?id=$1

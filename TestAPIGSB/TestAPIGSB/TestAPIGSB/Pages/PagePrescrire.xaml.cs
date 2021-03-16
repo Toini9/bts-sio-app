@@ -16,7 +16,7 @@ namespace TestAPIGSB.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PagePrescrire : ContentPage
     {
-        public PagePrescire()
+        public PagePrescrire()
         {
             InitializeComponent();
         }
@@ -24,12 +24,12 @@ namespace TestAPIGSB.Pages
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            List<Prescrire> lesPrecrires = new List<Prescrire>();
+            List<Prescrire> lesPrescrires = new List<Prescrire>();
 
             ws = new HttpClient();
-            var reponse = await ws.GetAsync("http://10.0.2.2/SIO2ALT/APIGSB/secteurs/");
+            var reponse = await ws.GetAsync("http://10.0.2.2/APIGSB/prescrire/");
             var content = await reponse.Content.ReadAsStringAsync();
-            lesPrescrires = JsonConvert.DeserializeObject<List<Secteur>>(content);
+            lesPrescrires = JsonConvert.DeserializeObject<List<Prescrire>>(content);
             lvPrescrires.ItemsSource = lesPrescrires;
         }
 
@@ -37,21 +37,21 @@ namespace TestAPIGSB.Pages
         {
             if (lvPrescrires.SelectedItem != null)
             {
-                txtNomSecteur.Text = (lvPrescrires.SelectedItem as Secteur).Nom;
+                txtNomPrescrire.Text = (lvPrescrires.SelectedItem as Prescrire).Nom;
             }
         }
 
         private async void btnModifier_Clicked(object sender, EventArgs e)
         {
-            if (txtNomSecteur.Text == null)
+            if (txtNomPrescrire.Text == null)
             {
-                Toast.MakeText(Android.App.Application.Context, "Sélectionner un secteur", ToastLength.Short).Show();
+                Toast.MakeText(Android.App.Application.Context, "Sélectionner une prescription", ToastLength.Short).Show();
             }
             else
             {
                 ws = new HttpClient();
-                Secteur sec = (lvSecteurs.SelectedItem as Secteur);
-                sec.Nom = txtNomSecteur.Text;
+                Prescrire sec = (lvPrescrires.SelectedItem as Prescrire);
+                sec.Nom = txtNomPrescrire.Text;
                 JObject jsec = new JObject
                 {
                     {"Id",sec.Id},
@@ -59,20 +59,20 @@ namespace TestAPIGSB.Pages
                 };
                 string json = JsonConvert.SerializeObject(jsec);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                var reponse = await ws.PutAsync("http://10.0.2.2/SIO2ALT/APIGSB/secteurs/", content);
-                List<Secteur> lesSecteurs = new List<Secteur>();
+                var reponse = await ws.PutAsync("http://10.0.2.2/APIGSB/prescrire/", content);
+                List<Prescrire> lesPrescrires = new List<Prescrire>();
 
                 ws = new HttpClient();
-                reponse = await ws.GetAsync("http://10.0.2.2/SIO2ALT/APIGSB/secteurs/");
+                reponse = await ws.GetAsync("http://10.0.2.2/APIGSB/prescrire/");
                 var flux = await reponse.Content.ReadAsStringAsync();
-                lesSecteurs = JsonConvert.DeserializeObject<List<Secteur>>(flux);
-                lvSecteurs.ItemsSource = lesSecteurs;
+                lesPrescrires = JsonConvert.DeserializeObject<List<Prescrire>>(flux);
+                lvPrescrires.ItemsSource = lesPrescrires;
             }
         }
 
         private async void btnAjouter_Clicked(object sender, EventArgs e)
         {
-            if (txtNomSecteur.Text == null)
+            if (txtNomPrescrire.Text == null)
             {
                 Toast.MakeText(Android.App.Application.Context, "Saisir un nom de secteur", ToastLength.Short).Show();
             }
@@ -83,20 +83,20 @@ namespace TestAPIGSB.Pages
                 //newSecteur.Nom = txtNomSecteur.Text;
                 JObject sec = new JObject
                 {
-                    { "Sec", txtNomSecteur.Text}
+                    { "Sec", txtNomPrescrire.Text}
                 };
                 string json = JsonConvert.SerializeObject(sec);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                var reponse = await ws.PostAsync("http://10.0.2.2/SIO2ALT/APIGSB/secteurs/", content);
+                var reponse = await ws.PostAsync("http://10.0.2.2/APIGSB/prescrire/", content);
 
-                List<Secteur> lesSecteurs = new List<Secteur>();
+                List<Prescrire> lesPrescrires = new List<Prescrire>();
 
                 ws = new HttpClient();
-                reponse = await ws.GetAsync("http://10.0.2.2/SIO2ALT/APIGSB/secteurs/");
+                reponse = await ws.GetAsync("http://10.0.2.2/APIGSB/prescrire/");
                 var flux = await reponse.Content.ReadAsStringAsync();
-                lesSecteurs = JsonConvert.DeserializeObject<List<Secteur>>(flux);
-                lvSecteurs.ItemsSource = lesSecteurs;
+                lesPrescrires = JsonConvert.DeserializeObject<List<Prescrire>>(flux);
+                lvPrescrires.ItemsSource = lesPrescrires;
             }
         }
     }
