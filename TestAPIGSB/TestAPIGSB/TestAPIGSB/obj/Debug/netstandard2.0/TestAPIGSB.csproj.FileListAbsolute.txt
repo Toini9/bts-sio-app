@@ -53,3 +53,12 @@ C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\ne
 C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.dll
 C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\ref\TestAPIGSB.dll
 C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.pdb
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\bin\Debug\netstandard2.0\TestAPIGSB.deps.json
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\bin\Debug\netstandard2.0\TestAPIGSB.dll
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\bin\Debug\netstandard2.0\ref\TestAPIGSB.dll
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\bin\Debug\netstandard2.0\TestAPIGSB.pdb
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\tony\Documents\GitHub\GSB\TestAPIGSB\TestAPIGSB\TestAPIGSB\obj\Debug\netstandard2.0\TestAPIGSB.csproj.CopyComplete

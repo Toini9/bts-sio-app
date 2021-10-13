@@ -25,13 +25,13 @@ namespace TestAPIGSB
             await Navigation.PushModalAsync(new NavigationPage(page));
         }
 
-        private void btnPrescrires_Clicked(object sender, EventArgs e)
+        private async void btnPrescrires_Clicked(object sender, EventArgs e)
         {
             PagePrescrire page = new PagePrescrire();
             await Navigation.PushModalAsync(new NavigationPage(page));
         }
 
-        private void btnbtnDosages_Clicked(object sender, EventArgs e)
+        private void btnDosages_Clicked(object sender, EventArgs e)
         {
 
         }

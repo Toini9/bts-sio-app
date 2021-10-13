@@ -27,7 +27,7 @@ namespace TestAPIGSB.Pages
             List<Prescrire> lesPrescrires = new List<Prescrire>();
 
             ws = new HttpClient();
-            var reponse = await ws.GetAsync("http://10.0.2.2/APIGSB/prescrire/");
+            var reponse = await ws.GetAsync("http://10.0.2.2/SIO2ALT/APIGSB/prescrire/");
             var content = await reponse.Content.ReadAsStringAsync();
             lesPrescrires = JsonConvert.DeserializeObject<List<Prescrire>>(content);
             lvPrescrires.ItemsSource = lesPrescrires;
@@ -59,11 +59,11 @@ namespace TestAPIGSB.Pages
                 };
                 string json = JsonConvert.SerializeObject(jsec);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                var reponse = await ws.PutAsync("http://10.0.2.2/APIGSB/prescrire/", content);
+                var reponse = await ws.PutAsync("http://10.0.2.2/SIO2ALT/APIGSB/prescrire/", content);
                 List<Prescrire> lesPrescrires = new List<Prescrire>();
 
                 ws = new HttpClient();
-                reponse = await ws.GetAsync("http://10.0.2.2/APIGSB/prescrire/");
+                reponse = await ws.GetAsync("http://10.0.2.2/SIO2ALT/APIGSB/prescrire/");
                 var flux = await reponse.Content.ReadAsStringAsync();
                 lesPrescrires = JsonConvert.DeserializeObject<List<Prescrire>>(flux);
                 lvPrescrires.ItemsSource = lesPrescrires;
@@ -88,12 +88,12 @@ namespace TestAPIGSB.Pages
                 string json = JsonConvert.SerializeObject(sec);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                var reponse = await ws.PostAsync("http://10.0.2.2/APIGSB/prescrire/", content);
+                var reponse = await ws.PostAsync("http://10.0.2.2/SIO2ALT/APIGSB/prescrire/", content);
 
                 List<Prescrire> lesPrescrires = new List<Prescrire>();
 
                 ws = new HttpClient();
-                reponse = await ws.GetAsync("http://10.0.2.2/APIGSB/prescrire/");
+                reponse = await ws.GetAsync("http://10.0.2.2/SIO2ALT/APIGSB/prescrire/");
                 var flux = await reponse.Content.ReadAsStringAsync();
                 lesPrescrires = JsonConvert.DeserializeObject<List<Prescrire>>(flux);
                 lvPrescrires.ItemsSource = lesPrescrires;
